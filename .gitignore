@@ -1,4 +1,24 @@
+# Compilación
+build/
 *.o
-.vscode/
-__pycache__/
+*.d
 *.out
+*.a
+*.so
+
+# Editores / SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Python (otros proyectos del lab)
+__pycache__/
+*.pyc
+.venv/
+
+# Red de seguridad: nunca capturas ni datos crudos
+*.pcap
+*.pcapng
+*.zip
+data/
